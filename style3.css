@@ -5,7 +5,14 @@ body{
 }
 p{
     font-size: 25px;
-    text-shadow: 
+    display: flex;
+    justify-content: flex ;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+	  color: #FFFFFF;
+	  text-shadow: 
 		-0   -2px 2px #000000,
 		 0   -2px 2px #000000,
 		-0    2px 2px #000000,
@@ -31,6 +38,7 @@ p{
 		-2px  2px 2px #000000,
 		 2px  2px 2px #000000;
 }
+
 h1{
     text-align: center;
     text-shadow: 
@@ -60,8 +68,42 @@ h1{
 		 2px  2px 2px #000000;
 }
 
+.abcdefg {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+  border: 5px solid lightgreen;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  box-shadow: 3px 5px 0 0 royalblue;
+  margin:20px 40px 0px 40px;
+  
+}
+
+.abcdefg::before {
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.abcdefg:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+nav{
+  z-index: 3;
+  display: flex;
+  justify-content: space-around;
+}
 html{
-    background-image: url(https://minio.nplus1.ru/app-images/170163/772a25a67c9d0f21ded1e0916c3e9770.jpg);
+    background-image: url(https://naked-science.ru/wp-content/uploads/2018/07/field_image_andromeda0.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -70,34 +112,3 @@ html{
     -o-background-size: cover;
     background-size: cover;
   }
-  .abcdefg {
-    color: #000;
-    position: relative;
-    text-decoration: none;
-    border: 5px solid lightgreen;
-    border-radius: 5px;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    box-shadow: 3px 5px 0 0 royalblue;
-  }
-  
-  .abcdefg::before {
-    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-    content: "";
-    inset: 0;
-    position: absolute;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.5s ease-in-out;
-    z-index: -1;
-  }
-  
-  .abcdefg:hover::before {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
-  nav{
-    display: flex;
-    justify-content: space-around;
-}
