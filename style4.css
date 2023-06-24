@@ -4,113 +4,70 @@ body{
     font-family: sans-serif;
 }
 p{
-    font-size: 25px;
-    display: flex;
-    justify-content: flex ;
-    font-family: sans-serif;
-    font-size: 25px;
-    color: #FFFFFF;
-    font-family: sans-serif;
-	  color: #FFFFFF;
-	  text-shadow: 
-		-0   -2px 2px #000000,
-		 0   -2px 2px #000000,
-		-0    2px 2px #000000,
-		 0    2px 2px #000000,
-		-2px -0   2px #000000,
-		 2px -0   2px #000000,
-		-2px  0   2px #000000,
-		 2px  0   2px #000000,
-		-1px -2px 2px #000000,
-		 1px -2px 2px #000000,
-		-1px  2px 2px #000000,
-		 1px  2px 2px #000000,
-		-2px -1px 2px #000000,
-		 2px -1px 2px #000000,
-		-2px  1px 2px #000000,
-		 2px  1px 2px #000000,
-		-2px -2px 2px #000000,
-		 2px -2px 2px #000000,
-		-2px  2px 2px #000000,
-		 2px  2px 2px #000000,
-		-2px -2px 2px #000000,
-		 2px -2px 2px #000000,
-		-2px  2px 2px #000000,
-		 2px  2px 2px #000000;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex ;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  text-shadow: 
+  -0   -2px 2px #000000,
+   0   -2px 2px #000000,
+  -0    2px 2px #000000,
+   0    2px 2px #000000,
+  -2px -0   2px #000000,
+   2px -0   2px #000000,
+  -2px  0   2px #000000,
+   2px  0   2px #000000,
+  -1px -2px 2px #000000,
+   1px -2px 2px #000000,
+  -1px  2px 2px #000000,
+   1px  2px 2px #000000,
+  -2px -1px 2px #000000,
+   2px -1px 2px #000000,
+  -2px  1px 2px #000000,
+   2px  1px 2px #000000,
+  -2px -2px 2px #000000,
+   2px -2px 2px #000000,
+  -2px  2px 2px #000000,
+   2px  2px 2px #000000,
+  -2px -2px 2px #000000,
+   2px -2px 2px #000000,
+  -2px  2px 2px #000000,
+   2px  2px 2px #000000;
 }
+
 
 h1{
-    text-align: center;
-    text-shadow: 
-		-0   -2px 2px #000000,
-		 0   -2px 2px #000000,
-		-0    2px 2px #000000,
-		 0    2px 2px #000000,
-		-2px -0   2px #000000,
-		 2px -0   2px #000000,
-		-2px  0   2px #000000,
-		 2px  0   2px #000000,
-		-1px -2px 2px #000000,
-		 1px -2px 2px #000000,
-		-1px  2px 2px #000000,
-		 1px  2px 2px #000000,
-		-2px -1px 2px #000000,
-		 2px -1px 2px #000000,
-		-2px  1px 2px #000000,
-		 2px  1px 2px #000000,
-		-2px -2px 2px #000000,
-		 2px -2px 2px #000000,
-		-2px  2px 2px #000000,
-		 2px  2px 2px #000000,
-		-2px -2px 2px #000000,
-		 2px -2px 2px #000000,
-		-2px  2px 2px #000000,
-		 2px  2px 2px #000000;
-}
-  .idk123{
-      z-index: 2;
-      border: 3px solid linear-gradient(120deg,aqua,lightgreen);
-      border-radius: 3px;
-      text-align: center;
-  }
-  .wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  
-  
-    justify-content: center;
-    align-items: center;
-
-  }
-
-  .full-screen {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .full-screen__body {
-    padding: 50px 15px;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex: 1 1 auto;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-transform: uppercase;
-  }
-
-  .full-screen__video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  text-align: center;
+  text-shadow: 
+  -0   -2px 2px #000000,
+   0   -2px 2px #000000,
+  -0    2px 2px #000000,
+   0    2px 2px #000000,
+  -2px -0   2px #000000,
+   2px -0   2px #000000,
+  -2px  0   2px #000000,
+   2px  0   2px #000000,
+  -1px -2px 2px #000000,
+   1px -2px 2px #000000,
+  -1px  2px 2px #000000,
+   1px  2px 2px #000000,
+  -2px -1px 2px #000000,
+   2px -1px 2px #000000,
+  -2px  1px 2px #000000,
+   2px  1px 2px #000000,
+  -2px -2px 2px #000000,
+   2px -2px 2px #000000,
+  -2px  2px 2px #000000,
+   2px  2px 2px #000000,
+  -2px -2px 2px #000000,
+   2px -2px 2px #000000,
+  -2px  2px 2px #000000,
+   2px  2px 2px #000000;
+} 
   .abcdefg {
     color: #000;
     position: relative;
@@ -144,4 +101,14 @@ h1{
     z-index: 3;
     display: flex;
     justify-content: space-around;
+}
+html{
+  background-image: url(https://naked-science.ru/wp-content/uploads/2016/12/field_image_a23_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
